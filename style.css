@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* background color: blue;center no-repeat; */
+    background-size: cover;
+    background-color: black;
+}
+
+.container, .footer {
+    margin: auto;
+    width: 85vw;
+}
+
+.header, .main {
+    display: flex;
+}
+
+.header {
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 15vh;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1%;
+}
+
+.header-button {
+    display: flex;
+    gap: 1rem;
+}
+
+.button {
+    border: none;
+    background-color: yellow;
+    height: 10vh;
+    width: 10vw;
+    box-shadow: 0 0 30px yellow;
+    color: black;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-bar, .text, .main-button, .footer, .links {
+    color: #fff;
+    transition: all 0.25s ease-in-out;
+}
+
+.nav-bar {
+    padding: 0.5% 0.75%;
+}
+
+.nav-bar:hover {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 0, 1);
+    color: black;
+}
+
+.text {
+    margin: 5% 20%;
+    font-size: 1.25em;
+}
+
+.main {
+    height: 70vh;
+    align-items: center;
+    gap: 10%;
+}
+
+.main-button {
+    border-radius: 2px;
+    background-color: transparent;
+    border: 1px solid yellow;
+    height: 7vh;
+    width: 10vw;
+    font-size: 0.75em;
+    box-shadow: 0 0 10px yellow;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    box-shadow: 0 0 20px yellow;
+}
+
+.photo {
+    margin: 3% 0 0 20%;
+    border-radius: 38%;
+    box-shadow: 0 0 50px yellow;
+    width :150px;
+}
+
+.photo:hover {
+    box-shadow: 0 0 100px yellow;
+}
+
+.main > h1, h2, p {
+    line-height: 50px;
+}
+
+.yellow {
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
+}
+
+.icon {
+    display: block;
+    margin: 5% 0;
+    font-size: 1.5em;
+}
+
+.icons {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icons:hover {
+    box-shadow: 0 0 20px #fff;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footerp {
+    line-height: 40px;
+    font-style: italic;
+}
+
+.name {
+    font-size: 2em;
+    font-weight: 900;
+    font-style: italic;
+    color: yellow;
+}
+
+.name:hover {
+    text-shadow: 0 0 5px yellow;
+    transform: scale(2);
+    color: #fff;
+}
+
+.skill {
+    font-size: 1.5em;
+    text-shadow: 0 0 10px #fff;
+}
+
+.links:hover {
+    box-shadow: 0 0 10px white;
+}
+
+
